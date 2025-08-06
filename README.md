@@ -46,10 +46,13 @@ Resolução da 1ª lista de exercícios do SENAI
    - Ex:   
    - Digite uma distância em metros: 185.72  
    - A distância de 185.7m corresponde a: 
-   - 0.18572Km  1.8572Hm  
-   - 18.572Dam  1857.2dm  
-   - 18572.0cm  185720.0mm
+   - 0.18572Km 
+   - 1.8572Hm  
+   - 18.572Dam  
+   - 1857.2dm  
+   - 18572.0cm  
+   - 185720.0mm
 
 9. Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$) e mostre quantos dólares ela pode comprar.\n Considere US$1,00 = R$3,45.   
 
-10. Faça um algoritmo que leia a largura e altura de uma parede, calcule e mostre a área a ser pintada e a quantidade de \ntinta necessária para o serviço, sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
+10. faça um algoritmo que leia a largura e altura de uma parede, calcule e mostre a área a ser pintada e a quantidade de \ntinta necessária para o serviço, sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
