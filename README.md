@@ -79,7 +79,7 @@ Resolução da 1ª lista de exercícios do SENAI
 
 20. Desenvolva um programa que leia um número inteiro e mostre se ele é PAR ou ÍMPAR.
 
-21. Faça um algoritmo que leia um determinado ano e mostre se ele é ou não BISSEXTO.
+21. Faça um algoritmo que leia um determinado ano e mostre se ele é ou não BISSEXTO. <!-- Não vou fazer porque é chato -->
 
 22. Escreva um programa que leia o ano de nascimento de um rapaz e mostre a sua situação em relação ao alistamento militar.
     - Se estiver antes dos 18 anos, mostre em quantos anos faltam para o alistamento.
@@ -88,9 +88,10 @@ Resolução da 1ª lista de exercícios do SENAI
 23. Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos  para todos, mas especialmente para mulheres. Faça um programa que leia nome,  sexo e o valor das compras do cliente e calcule o preço com desconto. Sabendo que:
     - Homens ganham 5% de desconto
     - Mulheres ganham 13% de desconto
+
 24. Faça um algoritmo que pergunte a distância que um passageiro deseja  percorrer em Km. Calcule o preço da passagem, cobrando R$0.50 por Km para  viagens até 200Km e R$0.45 para viagens mais longas.
 
-25. ***DESAFIO*** Crie um programa que leia o tamanho de três segmentos de reta. Analise seus comprimentos e diga se é possível formar um triângulo com essas  retas. Matematicamente, para três segmentos formarem um triângulo, o comprimento  de cada lado deve ser menor que a soma dos outros dois.
+25. ***DESAFIO*** Crie um programa que leia o tamanho de três segmentos de reta. Analise seus comprimentos e diga se é possível formar um triângulo com essas retas. Matematicamente, para três segmentos formarem um triângulo, o comprimento  de cada lado deve ser menor que a soma dos outros dois.
 
 ### PASSO 03 - CONDIÇÕES COMPOSTAS
 
@@ -109,12 +110,63 @@ Resolução da 1ª lista de exercícios do SENAI
     - Entre 100m² e 500m² = TERRENO MASTER  
     - Acima de 500m² = TERRENO VIP
 
-29. Desenvolva um programa que leia o nome de um funcionário, seu salário,  quantos anos ele trabalha na empresa e mostre seu novo salário, reajustado de  acordo com a tabela a seguir:
+29. Desenvolva um programa que leia o nome de um funcionário, seu salário, quantos anos ele trabalha na empresa e mostre seu novo salário, reajustado de  acordo com a tabela a seguir:
     - Até 3 anos de empresa: aumento de 3%
     - entre 3 e 10 anos: aumento de 12.5%
     - 10 anos ou mais: aumento de 20% 
 
-30. ***DESAFIO*** Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo  de triângulo será formado:
+30. ***DESAFIO*** Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo de triângulo será formado:
     - EQUILÁTERO: todos os lados iguais 
     - ISÓSCELES: dois lados iguais  
     - ESCALENO: todos os lados diferentes
+
+31. ***DESAFIO*** Crie um jogo de JoKenPo (Pedra-Papel-Tesoura) <!-- Later try to make it online -->
+
+32. ***DESAFIO*** Crie um jogo onde o computador vai sortear um número entre 1 e 5 o jogador vai tentar descobrir qual foi o valor sorteado.
+
+33. Escreva um programa para aprovar ou não o empréstimo bancário para a compra  de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar. Calcule o valor da prestação mensal, sabendo que  ela não pode exceder 30% do salário ou então o empréstimo será negado.
+
+34. O Índice de Massa Corpórea (IMC) é um valor calculado baseado na altura e no  peso de uma pessoa. De acordo com o valor do IMC, podemos classificar o  indivíduo dentro de certas faixas.
+    - abaixo de 18.5: Abaixo do peso
+    - entre 18.5 e 25: Peso ideal
+    - entre 25 e 30: Sobrepeso
+    - entre 30 e 40: Obesidade
+    - acima de 40: Obseidade mórbida
+    - Obs: O IMC é calculado pela expressão peso/altura² (peso dividido pelo quadrado da altura)
+
+35. Uma empresa de aluguel de carros precisa cobrar pelos seus serviços. O aluguel de um carro custa R$90 por dia para carro popular e R$150 por dia para carro de luxo. Além disso, o cliente paga por Km percorrido. Faça um programa  que leia o tipo de carro alugado (popular ou luxo), quantos dias de aluguel e quantos Km foram percorridos. No final mostre o preço a ser pago de acordo com a tabela a seguir:
+    - Carros populares (aluguel de R$90 por dia)
+        * Até 100Km percorridos: R$0,20 por Km  
+        * Acima de 100Km percorridos: R$0,10 por Km
+    - Carros de luxo (aluguel de R$150 por dia) 
+        * Até 200Km percorridos: R$0,30 por Km  
+        * Acima de 200Km percorridos: R$0,25 por Km
+
+36. Um programa de vida saudável quer dar pontos atividades físicas que podem  ser trocados por dinheiro. O sistema funciona assim:
+    - Cada hora de atividade física no mês vale pontos  
+        * até 10h de atividade no mês: ganha 2 pontos por hora  
+        * de 10h até 20h de atividade no mês: ganha 5 pontos por hora   
+        * acima de 20h de atividade no mês: ganha 10 pontos por hora
+    - A cada ponto ganho, o cliente fatura R$0,05 (5 centavos)
+    - Faça um programa que leia quantas horas de atividade uma pessoa teve por mês, calcule e mostre quantos pontos ela teve e quanto dinheiro ela conseguiu ganhar.
+
+37. Uma empresa precisa reajustar o salário dos seus funcionários, dando um aumento de acordo com alguns fatores. Faça um programa que leia o salário atual, o gênero do funcionário e há quantos anos esse funcionário trabalha na empresa. No final, mostre o seu novo salário, baseado na tabela a seguir:
+    - Mulheres
+        * menos de 15 anos de empresa: +5%
+        * de 15 até 20 anos de empresa: +12
+        * mais de 20 anos de empresa: +23
+    - Homens
+        * menos de 20 anos de empresa: +3%
+        * de 20 até 30 anos de empresa: +13
+        * mais de 30 anos de empresa: +25%
+
+### PASSO 04 – REPETIÇÕES ENQUANTO
+
+38. Escreva um programa que mostre na tela a seguinte contagem:
+    - 6 7 8 9 10 11 Acabou!
+
+39. Faça um algoritmo que mostre na tela a seguinte contagem:
+    - 10 9 8 7 6 5 4 3 Acabou!
+
+40. Crie um aplicativo que mostre na tela a seguinte contagem:
+    - 0 3 6 9 12 15 18 Acabou!
