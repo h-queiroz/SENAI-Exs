@@ -122,7 +122,7 @@ Resolução da 1ª lista de exercícios do SENAI
 
 31. ***DESAFIO*** Crie um jogo de JoKenPo (Pedra-Papel-Tesoura) <!-- Later try to make it online -->
 
-32. ***DESAFIO*** Crie um jogo onde o computador vai sortear um número entre 1 e 5 o jogador vai tentar descobrir qual foi o valor sorteado.
+32. ***DESAFIO*** Crie um jogo onde o computador vai sortear um número entre 1 e 5 o jogador vai tentar descobrir qual foi o valor sorteado. <!-- Chato -->
 
 33. Escreva um programa para aprovar ou não o empréstimo bancário para a compra  de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar. Calcule o valor da prestação mensal, sabendo que  ela não pode exceder 30% do salário ou então o empréstimo será negado.
 
@@ -131,7 +131,7 @@ Resolução da 1ª lista de exercícios do SENAI
     - entre 18.5 e 25: Peso ideal
     - entre 25 e 30: Sobrepeso
     - entre 30 e 40: Obesidade
-    - acima de 40: Obseidade mórbida
+    - acima de 40: Obesidade mórbida
     - Obs: O IMC é calculado pela expressão peso/altura² (peso dividido pelo quadrado da altura)
 
 35. Uma empresa de aluguel de carros precisa cobrar pelos seus serviços. O aluguel de um carro custa R$90 por dia para carro popular e R$150 por dia para carro de luxo. Além disso, o cliente paga por Km percorrido. Faça um programa  que leia o tipo de carro alugado (popular ou luxo), quantos dias de aluguel e quantos Km foram percorridos. No final mostre o preço a ser pago de acordo com a tabela a seguir:
@@ -157,7 +157,7 @@ Resolução da 1ª lista de exercícios do SENAI
         * mais de 20 anos de empresa: +23
     - Homens
         * menos de 20 anos de empresa: +3%
-        * de 20 até 30 anos de empresa: +13
+        * de 20 até 30 anos de empresa: +13%
         * mais de 30 anos de empresa: +25%
 
 ### PASSO 04 – REPETIÇÕES ENQUANTO
@@ -179,7 +179,7 @@ Resolução da 1ª lista de exercícios do SENAI
     - Contagem: 1 2 3 4 5 6 7 ... 33 34 35 Acabou!
 
 43. Desenvolva um algoritmo que mostre uma contagem regressiva de 30 até 1, marcando os números que forem divisíveis por 4, exatamente como mostrado abaixo:
-    - 30 29 \[28\] 27 26 25 \[24\] 23 22 21 \[20\] 19 18 17 \[16\]...
+    - 30 29 [28] 27 26 25 [24] 23 22 21 [20] 19 18 17 [16]...
 
 44. Crie um algoritmo que leia o valor inicial da contagem, o valor final e o incremento, mostrando em seguida todos os valores no intervalo:  
     - Ex: Digite o primeiro Valor: 3
@@ -201,3 +201,47 @@ Resolução da 1ª lista de exercícios do SENAI
     - a. Quais foram os números sorteados
     - b. Quantos números estão acima de 5
     - c. Quantos números são divisíveis por 3
+
+51. Faça um aplicativo que leia o preço de 8 produtos. No final, mostre na tela qual foi o maior e qual foi o menor preço digitados.
+
+52. Crie um algoritmo que leia a idade de 10 pessoas, mostrando no final:
+    - a. Qual é a média de idade do grupo
+    - b. Quantas pessoas tem mais de 18 anos
+    - c. Quantas pessoas tem menos de 5 anos
+    - d. Qual foi a maior idade lida
+
+53. Faça um programa que leia a idade e o sexo de 5 pessoas, mostrando no final:    
+    - a. Quantos homens foram cadastrados    
+    - b. Quantas mulheres foram cadastradas    
+    - c. A média de idade do grupo    
+    - d. A média de idade dos homens    
+    - e. Quantas mulheres tem mais de 20 anos
+
+54. Desenvolva um aplicativo que leia o peso e a altura de 7 pessoas, mostrando  no final:    
+    - a. Qual foi a média de altura do grupo    
+    - b. Quantas pessoas pesam mais de 90Kg    
+    - c. Quantas pessoas que pesam menos de 50Kg tem menos de 1.60m    
+    - d. Quantas pessoas que medem mais de 1.90m pesam mais de 100Kg.
+
+55. ***DESAFIO*** Vamos melhorar o jogo que fizemos no exercício 32. A partir de  agora, o computador vai sortear um número entre 1 e 10 e o jogador vai ter 4 tentativas para tentar acertar.
+
+### PASSO 05 – ENQUANTO COM FLAG
+
+56. Crie um programa que leia vários números pelo teclado e mostre no final o  somatório entre eles.  Obs: O programa será interrompido quando o número 1111 for digitado   
+
+57. Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários.  No final, mostre o total de salários pagos aos homens e o total pago às  mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não  sempre que ler os dados de um funcionário.   
+
+58. Faça um algoritmo que leia a idade de vários alunos de uma turma. O programa  vai parar quando for digitada a idade 999. No final, mostre quantos alunos  existem na turma e qual é a média de idade do grupo.  
+
+59. Crie um programa que leia o sexo e a idade de várias pessoas. O programa vai perguntar se o usuário quer continuar ou não a cada pessoa. No final, mostre:    
+    - a. qual é a maior idade lida    
+    - b. quantos homens foram cadastrados    
+    - c. qual é a idade da mulher mais jovem    
+    - d. qual é a média de idade entre os homens
+
+60. Desenvolva um algoritmo que leia o nome, a idade e o sexo de várias pessoas. O programa vai perguntar se o usuário quer ou não continuar. No final, mostre:    
+    - a. O nome da pessoa mais velha    
+    - b. O nome da mulher mais jovem    
+    - c. A média de idade do grupo    
+    - d. Quantos homens tem mais de 30 anos    
+    - e. Quantas mulheres tem menos de 18 anos
